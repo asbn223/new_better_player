@@ -1,3 +1,5 @@
+package android
+
 group 'com.jhomlala.better_player.better_player'
 version '1.0-SNAPSHOT'
 
@@ -32,7 +34,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'com.jhomlala.better_player.better_player'
+    namespace 'com.jhomlala.better_player'
     compileSdkVersion 33
 
     compileOptions {
